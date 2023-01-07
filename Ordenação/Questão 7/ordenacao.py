@@ -147,7 +147,7 @@ def partition(lista, type, init, end):
         return index
 
 
-
+#HeapSort
 class MinHeap:
     def __init__(self, capacity):
         self.storage = [0]*capacity
