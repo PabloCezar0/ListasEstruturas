@@ -287,23 +287,6 @@ class MinHeap:
             prim += str(i) + '; '
         return prim
 
-    def isEmpty(self):
-        return self.size == 0
-
-    def toList(self):
-        if not self.isEmpty() :
-            return self.storage[0:]
-        else:
-            return ["Empty Heap"]
-
-    def printGraph(self):
-        heap_list = self.toList()
-        values = []
-        for x in heap_list:
-            values.append(f"{x}")
-        root = build(values)
-        print("\nDesenho da Heap")
-        print(root)
 
 
 class MaxHeap:
@@ -447,20 +430,4 @@ class MaxHeap:
             prim += str(i) + '; '
         return prim
 
-    def isEmpty(self):
-        return self.size == 0
-
-    def toList(self):
-        if not self.isEmpty() :
-            return self.storage[0:]
-        else:
-            return ["Empty Heap"]
-
-    def printGraph(self):
-        heap_list = self.toList()
-        values = []
-        for x in heap_list:
-            values.append(f"{x}")
-        root = build(values)
-        print("\nDesenho da Heap")
-        print(root)
+ 
